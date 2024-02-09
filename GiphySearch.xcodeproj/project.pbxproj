@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C83E0052B769B12007EFDD8 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C83E0042B769B12007EFDD8 /* Localizable.strings */; };
+		3C83E0092B76A97B007EFDD8 /* SDWebImageSwiftUI-2.x in Resources */ = {isa = PBXBuildFile; fileRef = 3C83E0082B76A97B007EFDD8 /* SDWebImageSwiftUI-2.x */; };
+		3C83E00B2B76A994007EFDD8 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 3C83E00A2B76A994007EFDD8 /* SDWebImageSwiftUI */; };
+		3C83E00D2B76B941007EFDD8 /* SearchRepositoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C83E00C2B76B941007EFDD8 /* SearchRepositoryTests.swift */; };
 		3C9A07B52B75C97C00B86275 /* GiphySearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07B42B75C97C00B86275 /* GiphySearchApp.swift */; };
 		3C9A07B72B75C97C00B86275 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07B62B75C97C00B86275 /* ContentView.swift */; };
 		3C9A07B92B75C97E00B86275 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C9A07B82B75C97E00B86275 /* Assets.xcassets */; };
@@ -14,6 +18,11 @@
 		3C9A07C62B75C97E00B86275 /* GiphySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07C52B75C97E00B86275 /* GiphySearchTests.swift */; };
 		3C9A07D02B75C97E00B86275 /* GiphySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07CF2B75C97E00B86275 /* GiphySearchUITests.swift */; };
 		3C9A07D22B75C97E00B86275 /* GiphySearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07D12B75C97E00B86275 /* GiphySearchUITestsLaunchTests.swift */; };
+		3C9A07DF2B75CB0200B86275 /* SearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07DE2B75CB0200B86275 /* SearchResponse.swift */; };
+		3C9A07E12B75CD1E00B86275 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07E02B75CD1E00B86275 /* SearchViewModel.swift */; };
+		3C9A07E32B75D0D100B86275 /* SearchRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07E22B75D0D100B86275 /* SearchRepository.swift */; };
+		3C9A07E52B75D99A00B86275 /* EnterApiKeyScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07E42B75D99A00B86275 /* EnterApiKeyScreen.swift */; };
+		3C9A07E72B75DD7400B86275 /* SearchScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C9A07E62B75DD7400B86275 /* SearchScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,7 +42,23 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		3C83E0002B7692F2007EFDD8 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		3C83E0042B769B12007EFDD8 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		3C83E0082B76A97B007EFDD8 /* SDWebImageSwiftUI-2.x */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "SDWebImageSwiftUI-2.x"; path = "../../SDWebImageSwiftUI-2.x"; sourceTree = "<group>"; };
+		3C83E00C2B76B941007EFDD8 /* SearchRepositoryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepositoryTests.swift; sourceTree = "<group>"; };
 		3C9A07B12B75C97C00B86275 /* GiphySearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiphySearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9A07B42B75C97C00B86275 /* GiphySearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchApp.swift; sourceTree = "<group>"; };
 		3C9A07B62B75C97C00B86275 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +69,12 @@
 		3C9A07CB2B75C97E00B86275 /* GiphySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GiphySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C9A07CF2B75C97E00B86275 /* GiphySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchUITests.swift; sourceTree = "<group>"; };
 		3C9A07D12B75C97E00B86275 /* GiphySearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GiphySearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3C9A07DE2B75CB0200B86275 /* SearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponse.swift; sourceTree = "<group>"; };
+		3C9A07E02B75CD1E00B86275 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
+		3C9A07E22B75D0D100B86275 /* SearchRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRepository.swift; sourceTree = "<group>"; };
+		3C9A07E42B75D99A00B86275 /* EnterApiKeyScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterApiKeyScreen.swift; sourceTree = "<group>"; };
+		3C9A07E62B75DD7400B86275 /* SearchScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreen.swift; sourceTree = "<group>"; };
+		3C9A07EA2B768F7B00B86275 /* GiphySearch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = GiphySearch; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C83E00B2B76A994007EFDD8 /* SDWebImageSwiftUI in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +103,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3C83DFFB2B7692F1007EFDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		3C9A07A82B75C97C00B86275 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +117,7 @@
 				3C9A07C42B75C97E00B86275 /* GiphySearchTests */,
 				3C9A07CE2B75C97E00B86275 /* GiphySearchUITests */,
 				3C9A07B22B75C97C00B86275 /* Products */,
+				3C83DFFB2B7692F1007EFDD8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +134,18 @@
 		3C9A07B32B75C97C00B86275 /* GiphySearch */ = {
 			isa = PBXGroup;
 			children = (
+				3C83E0082B76A97B007EFDD8 /* SDWebImageSwiftUI-2.x */,
+				3C9A07EA2B768F7B00B86275 /* GiphySearch */,
 				3C9A07B42B75C97C00B86275 /* GiphySearchApp.swift */,
 				3C9A07B62B75C97C00B86275 /* ContentView.swift */,
 				3C9A07B82B75C97E00B86275 /* Assets.xcassets */,
 				3C9A07BA2B75C97E00B86275 /* Preview Content */,
+				3C9A07DE2B75CB0200B86275 /* SearchResponse.swift */,
+				3C9A07E02B75CD1E00B86275 /* SearchViewModel.swift */,
+				3C9A07E22B75D0D100B86275 /* SearchRepository.swift */,
+				3C9A07E42B75D99A00B86275 /* EnterApiKeyScreen.swift */,
+				3C9A07E62B75DD7400B86275 /* SearchScreen.swift */,
+				3C83E0042B769B12007EFDD8 /* Localizable.strings */,
 			);
 			path = GiphySearch;
 			sourceTree = "<group>";
@@ -114,6 +162,7 @@
 			isa = PBXGroup;
 			children = (
 				3C9A07C52B75C97E00B86275 /* GiphySearchTests.swift */,
+				3C83E00C2B76B941007EFDD8 /* SearchRepositoryTests.swift */,
 			);
 			path = GiphySearchTests;
 			sourceTree = "<group>";
@@ -137,12 +186,16 @@
 				3C9A07AD2B75C97C00B86275 /* Sources */,
 				3C9A07AE2B75C97C00B86275 /* Frameworks */,
 				3C9A07AF2B75C97C00B86275 /* Resources */,
+				3C83E0002B7692F2007EFDD8 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = GiphySearch;
+			packageProductDependencies = (
+				3C83E00A2B76A994007EFDD8 /* SDWebImageSwiftUI */,
+			);
 			productName = GiphySearch;
 			productReference = 3C9A07B12B75C97C00B86275 /* GiphySearch.app */;
 			productType = "com.apple.product-type.application";
@@ -232,6 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9A07BC2B75C97E00B86275 /* Preview Assets.xcassets in Resources */,
+				3C83E0092B76A97B007EFDD8 /* SDWebImageSwiftUI-2.x in Resources */,
+				3C83E0052B769B12007EFDD8 /* Localizable.strings in Resources */,
 				3C9A07B92B75C97E00B86275 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +314,11 @@
 			files = (
 				3C9A07B72B75C97C00B86275 /* ContentView.swift in Sources */,
 				3C9A07B52B75C97C00B86275 /* GiphySearchApp.swift in Sources */,
+				3C9A07E72B75DD7400B86275 /* SearchScreen.swift in Sources */,
+				3C9A07E52B75D99A00B86275 /* EnterApiKeyScreen.swift in Sources */,
+				3C9A07E32B75D0D100B86275 /* SearchRepository.swift in Sources */,
+				3C9A07E12B75CD1E00B86275 /* SearchViewModel.swift in Sources */,
+				3C9A07DF2B75CB0200B86275 /* SearchResponse.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C9A07C62B75C97E00B86275 /* GiphySearchTests.swift in Sources */,
+				3C83E00D2B76B941007EFDD8 /* SearchRepositoryTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -579,6 +640,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3C83E00A2B76A994007EFDD8 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3C9A07A92B75C97C00B86275 /* Project object */;
 }
